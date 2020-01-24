@@ -8,3 +8,5 @@ edition = "2018"
 
 [dependencies]
 omnom = "3.0.0"
+serde = { version = "1.0.60", features = ["derive"] }
+serde_yaml = "0.8.11"
